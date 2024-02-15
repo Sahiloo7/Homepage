@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.homepage{
+   background-color: rgb(237, 241, 252);
+   width: 100vw;
+   height: 100vh;
+}
+.navbar{
+    height: 6.8vh;
+    width: 100vw;
+    background-color: rgba(193, 215, 245, 0.53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-logo{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-left: 3%;
+}
+.name-logo span{
+    color: rgb(243, 34, 187);
+    font-size: 1.8rem;
+}
+.name-logo p{
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+}
+.info-logo{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    margin-right: 3%;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home{
+    color: rgb(243, 34, 187);
+}
+.home i{
+    color: rgb(0, 0, 0);
+}
+.info-section{
+    height: 65vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    margin: 18% 0% 0% 15%;
+}
+.greeting{
+    color: black;
+    font-size: 1rem;
+    font-family: Georgia, serif;
+}
+.intro-1{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.intro-2{
+    font-size: 1rem;
+    color: rgb(243, 34, 187);
+}
+.intro-3{
+    font-family: Georgia, serif;
+}
+.selfie{
+    margin: 10% 0% 0% 10%;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(237, 241, 252);
+    border-radius: 50%;
+    background-image: url("Sahil.jpeg");
+    background-size: cover;
+}
+.social-links{
+    width: 450px;
+    margin: 5% 0% 0% 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 2rem;
+    color:  rgb(68, 21, 237);
+}
+.social-links p{
+    color:  rgb(243, 34, 187);
+    font-size: 1rem;
+    margin: 2%;
+}
