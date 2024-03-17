@@ -41,6 +41,12 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+.home-link {
+    text-decoration: none; /* Remove default link underline */
+    display: inline-block; /* Ensure the anchor takes up only necessary space */
+    cursor: pointer; /* Change cursor to indicate clickability */
+    /* Add any other styling you want */
+}
 .home{
     color: rgb(243, 34, 187);
 }
