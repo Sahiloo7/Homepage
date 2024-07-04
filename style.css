@@ -49,9 +49,11 @@
 }
 .home{
     color: rgb(243, 34, 187);
+    cursor: pointer;
 }
 .home i{
     color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 .info-section{
     height: 65vh;
