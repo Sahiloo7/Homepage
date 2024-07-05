@@ -5,50 +5,25 @@
 }
 
 .homepage{
-   background-color: rgb(237, 241, 252);
+   background-color: #f1faee; /*rgb(237, 241, 252);*/
    width: 100vw;
    height: 100vh;
+   color: #023e8a;
 }
 
 .navbar{
     height: 6.8vh;
-    width: 100vw;
-    background-color: rgba(193, 215, 245, 0.53);
+    background-color: #a8dadc; /*rgba(193, 215, 245, 0.53); */
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.name-logo{
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    margin-left: 3%;
-}
-
-.name-logo span{
-    color: rgb(243, 34, 187);
-    font-size: 1.8rem;
-}
-
-.name-logo p{
-    color: rgb(0, 0, 0);
-    font-size: 1.8rem;
-}
-
-.info-logo{
-    width: 50%;
-    color: rgb(0, 0, 0);
-    margin-right: 3%;
-    font-size: 1rem;
-    font-weight: 900;
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    color: #283618;
+    font-weight: 900;
+    font-size: 1.3rem;
 }
 
 .home{
-    color: rgb(243, 34, 187);
+    color: #e63946; /*rgb(243, 34, 187);*/
     cursor: pointer;
 }
 
@@ -66,20 +41,20 @@
 
 .info-section{
     height: 65vh;
-    width: 90vw;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .intro{
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    margin: 14rem 0 0 18rem;
 }
 
 .greeting{
-    color: black;
+    color: #023e8a;
     font-size: 1rem;
     font-family: Georgia, serif;
 }
@@ -91,7 +66,7 @@
 
 .intro-2{
     font-size: 1rem;
-    color: rgb(243, 34, 187);
+    color: #ff5400;
 }
 
 .intro-3{
@@ -99,9 +74,9 @@
 }
 
 .selfie{
-    margin: 10% 0% 0% 10%;
-    height: 400px;
-    width: 400px;
+    margin: 0 4rem 3rem 0;
+    height: 300px;
+    width: 300px;
     border: 1px solid rgb(237, 241, 252);
     border-radius: 50%;
     background-image: url("Sahil.jpeg");
@@ -109,21 +84,19 @@
 }
 
 .footer{
-    margin: 8rem 0 0 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 0.7rem;
+    flex-direction: column;
+    margin: 8rem 0 0 0;
 }
 
 .social-links{
-    width: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
+    gap: 2rem;
     font-size: 2rem;
-    color:  rgb(68, 21, 237);
+    color: #1d3557;
 }
 
 .github{
@@ -143,51 +116,54 @@
 }
 
 .social-links p{
-    color:  rgb(243, 34, 187);
+    color: #0096c7;
     font-size: 1rem;
-    margin: 0.58rem;
+    margin: 0.58rem 0 0 0;
 }
 
 .contact{
-    width: 50vh;
     display: flex;
     flex-direction: row;
-    color:  rgb(68, 21, 237);
+    color: #1d3557;
     text-decoration: none;
     font-size: 1.1rem;
     gap: 0.5rem;
-    margin-left: 4.6rem;
+    margin: 1rem 0 0 0;
 }
 
 .contact p{
-    color:  rgb(243, 34, 187);
+    color: #0096c7;
     font-size: 1rem;
+}
+
+.email{
+    cursor: pointer;
 }
 
 /* About section :- */
 
 .sup-about-intro{
     height: 65vh;
-    width: 90vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0rem 4rem 0 4rem;
-    /* gap: 2rem; */
+    margin: 0 15vw 0 15vw;
+    color: #0a2ab3;
+}
+
+.sup-about-intro h2{
+    color: #ff5400;
 }
 
 .about-intro{
-    width: 60vw;
-    margin: 7rem 0 0 0;
+    color: #0a2ab3;
+    margin: 3.5rem 0 0 0;
 }
 
 .background-education{
-    width: 60vw;
     margin: 2.5rem 0 0 0;
 }
 
 .personal-interests{
-    width: 60vw;
     margin: 2.5rem 0 0 0;
 }
 
@@ -195,26 +171,35 @@
 
 .my-exp{
     height: 65vh;
-    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 4rem 0 4rem;
+    margin: 0 15vw 0 15vw;
+    color: #ff2a6a;
 }
 
 .work-exp{
-    margin: 7rem 0 0 0;
+    margin: 3.5rem 0 0 0;
     font-size: 1.2rem;
 }
 
 .my-projects{
-    margin: 3rem 0 0 7rem;
-    color:  rgb(68, 21, 237);
+    margin: 3rem 0 0 0;
+    color: #ff5d8f;
 }
 
-.my-projects p{
-    color:  rgb(243, 34, 187);
+.my-projects span{
+    color: #7b2cbf;
     font-size: 1.3rem;
     font-style: italic;
     font-weight: 600;
+}
+
+.my-projects p{
+    color: #7b2cbf;
+}
+
+.my-projects ul{
+    cursor: pointer;
+    font-weight: 900;
 }
