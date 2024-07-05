@@ -9,6 +9,10 @@
    width: 100vw;
    height: 100vh;
    color: #023e8a;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center; */
 }
 
 .navbar{
@@ -40,9 +44,9 @@
 }
 
 .info-section{
-    height: 65vh;
+    height: 81.2vh;
+    margin: 0 2rem 0 2rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -74,9 +78,9 @@
 }
 
 .selfie{
-    margin: 0 4rem 3rem 0;
-    height: 300px;
-    width: 300px;
+    margin: 2.3rem 4.5rem 3rem 0;
+    height: 250px;
+    width: 250px;
     border: 1px solid rgb(237, 241, 252);
     border-radius: 50%;
     background-image: url("Sahil.jpeg");
@@ -84,17 +88,18 @@
 }
 
 .footer{
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 8rem 0 0 0;
+    margin: 0 0 3vh 0;
 }
 
 .social-links{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1.5rem;
     font-size: 2rem;
     color: #1d3557;
 }
@@ -143,10 +148,10 @@
 /* About section :- */
 
 .sup-about-intro{
-    height: 65vh;
+    height: 81.2vh;
     display: flex;
     flex-direction: column;
-    margin: 0 15vw 0 15vw;
+    margin: 0 10vw 0 10vw;
     color: #0a2ab3;
 }
 
@@ -156,7 +161,7 @@
 
 .about-intro{
     color: #0a2ab3;
-    margin: 3.5rem 0 0 0;
+    margin: 2.5rem 0 0 0;
 }
 
 .background-education{
@@ -170,16 +175,16 @@
 /* Experience section */
 
 .my-exp{
-    height: 65vh;
+    height: 81.2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 15vw 0 15vw;
+    margin: 0 10vw 0 10vw;
     color: #ff2a6a;
 }
 
 .work-exp{
-    margin: 3.5rem 0 0 0;
+    margin: 2.5rem 0 0 0;
     font-size: 1.2rem;
 }
 
