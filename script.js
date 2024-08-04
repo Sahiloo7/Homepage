@@ -58,3 +58,9 @@ document.querySelector('.game1').addEventListener('click', function() {
 document.querySelector('.game2').addEventListener('click', function() {
     window.location.href = 'https://sahiloo7.github.io/Rock-Paper-Scissors/';
 });
+
+// This script is optional if you want to add more interactivity
+function showPopup(popupId) {
+    var popup = document.getElementById(popupId);
+    popup.classList.toggle("show");
+}

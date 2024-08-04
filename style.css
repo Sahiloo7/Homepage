@@ -27,7 +27,6 @@
 }
 
 .home{
-    color: #e63946; /*rgb(243, 34, 187);*/
     cursor: pointer;
 }
 
@@ -102,6 +101,45 @@
     gap: 1.5rem;
     font-size: 2rem;
     color: #1d3557;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popuptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(69, 148, 183);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the popup */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup:hover .popuptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 .github{
@@ -207,4 +245,8 @@
 .my-projects ul{
     cursor: pointer;
     font-weight: 900;
+}
+
+.Hover:hover{
+    color: #0096c7;
 }
